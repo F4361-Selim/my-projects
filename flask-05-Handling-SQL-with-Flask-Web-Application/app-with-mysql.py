@@ -1,6 +1,6 @@
 # Import Flask modules
 from flask import Flask, render_template, request
-from flask.mysql import MySQL
+from flaskext.mysql import MySQL
 
 # Create an object named app
 app = Flask(__name__)
